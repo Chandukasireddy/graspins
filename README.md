@@ -5,7 +5,8 @@
 ## Live Demo
 Quick Updated Free server Demo https://graspins.vercel.app/
 
-You can view the live demo of our website [**here**](https://graspins.com/).
+You can view the live demo of our website https://graspins.com/.
+[**here**](https://graspins.com/)
 
 ## Layout Overview
 
