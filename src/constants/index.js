@@ -40,7 +40,7 @@ export const features = [
     icon: star,
     title: "Rewards",
     content:
-      "The best credit cards offer some tantalizing combinations of promotions and prizes",
+      "Best IT Solutions",
   },
   {
     id: "feature-2",
