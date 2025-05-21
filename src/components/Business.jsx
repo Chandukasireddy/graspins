@@ -27,12 +27,11 @@ const Business = () => {
   return (
     <section id='features' className={layout.section}>
       <div className={layout.sectionInfo}>
-        <h2 className={styles.heading2}>You do the business, <br className='sm:block hidden'/>we'll handle the money.</h2>
+        <h2 className={styles.heading2}>Your Vision, <br className='sm:block hidden'/>Our Expertise.</h2>
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-          With the right credit card, 
-          you can improve your financial life by building credit,
-          earning rewards and saving money.
-          But with hundreds of credit cards on the market.
+          From cloud migration to custom software development, we provide end-to-end IT solutions 
+          that drive business growth. Our team of experts combines technical excellence with 
+          industry best practices to deliver innovative solutions tailored to your needs.
         </p>
         <Button styles='mt-10'/>
       </div>

@@ -1,4 +1,5 @@
-import React from 'react'
+import React, { useEffect } from 'react'
+import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom'
 import { 
   Billing, 
   Business, 
@@ -9,13 +10,28 @@ import {
   Hero, 
   Navbar, 
   Stats, 
-  Testimonials 
+  Testimonials,
+  Careers
 } from './components'
 import styles from './style'
 
-const App = () => {
+const ScrollToTop = () => {
+  const { pathname } = useLocation()
+
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [pathname])
+
+  return null
+}
+
+const Home = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
+
   return (
-    <div className='bg-primary w-full overflow-hidden'>
+    <>
       <div className={`${styles.paddingX} ${styles.flexCenter}`}>
         <div className={`${styles.boxWidth}`}>
           <Navbar/>
@@ -38,7 +54,21 @@ const App = () => {
           <Footer/>     
         </div>
       </div>
-    </div>
+    </>
+  )
+}
+
+const App = () => {
+  return (
+    <Router>
+      <ScrollToTop />
+      <div className='bg-primary w-full overflow-hidden'>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/careers" element={<Careers />} />
+        </Routes>
+      </div>
+    </Router>
   )
 }
 

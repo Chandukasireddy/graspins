@@ -22,11 +22,11 @@ export const navLinks = [
   },
   {
     id: "features",
-    title: "Features",
+    title: "Services",
   },
   {
     id: "product",
-    title: "Product",
+    title: "Solutions",
   },
   {
     id: "clients",
@@ -38,23 +38,23 @@ export const features = [
   {
     id: "feature-1",
     icon: star,
-    title: "Rewards",
+    title: "Custom Software Development",
     content:
-      "Best IT Solutions",
+      "Tailored solutions for web, mobile, and enterprise applications built with cutting-edge technologies.",
   },
   {
     id: "feature-2",
     icon: shield,
-    title: "100% Secured",
+    title: "Cloud Solutions",
     content:
-      "We take proactive steps make sure your information and transactions are secure.",
+      "Expert cloud migration, management, and optimization services for enhanced scalability and security.",
   },
   {
     id: "feature-3",
     icon: send,
-    title: "Balance Transfer",
+    title: "Digital Transformation",
     content:
-      "A balance transfer credit card can save you a lot of money in interest charges.",
+      "End-to-end digital solutions including data analytics, visualization, and business process automation.",
   },
 ];
 
@@ -62,25 +62,25 @@ export const feedback = [
   {
     id: "feedback-1",
     content:
-      "Best tech experts ever, I can gurantee.",
-    name: "Anjali",
-    title: "Developer",
+      "Their expertise in cloud migration transformed our infrastructure completely. Highly recommended!",
+    name: "Sarah Johnson",
+    title: "CTO, TechCorp",
     img: people01,
   },
   {
     id: "feedback-2",
     content:
-      "We support your expantation.",
-    name: "Vishnu",
-    title: "Developer",
+      "The custom software solution they developed has streamlined our operations significantly.",
+    name: "Michael Chen",
+    title: "Operations Director",
     img: people02,
   },
   {
     id: "feedback-3",
     content:
-      "With a top notch R&D we develop your products.",
-    name: "Akash",
-    title: "Research analyst",
+      "Outstanding data analytics and visualization services that helped us make better business decisions.",
+    name: "Emily Rodriguez",
+    title: "Data Analytics Lead",
     img: people03,
   },
 ];
@@ -88,82 +88,82 @@ export const feedback = [
 export const stats = [
   {
     id: "stats-1",
-    title: "User Active",
-    value: "3800+",
+    title: "Projects Delivered",
+    value: "500+",
   },
   {
     id: "stats-2",
-    title: "Trusted by Company",
-    value: "230+",
+    title: "Enterprise Clients",
+    value: "100+",
   },
   {
     id: "stats-3",
-    title: "Transaction",
-    value: "$230M+",
+    title: "Success Rate",
+    value: "98%",
   },
 ];
 
 export const footerLinks = [
   {
-    title: "Useful Links",
+    title: "Services",
     links: [
       {
-        name: "Content",
-        link: "https://www.Graspins.com/content/",
+        name: "Software Development",
+        link: "https://www.Graspins.com/services/software-development/",
       },
       {
-        name: "How it Works",
-        link: "https://www.Graspins.com/how-it-works/",
+        name: "Cloud Solutions",
+        link: "https://www.Graspins.com/services/cloud-solutions/",
       },
       {
-        name: "Create",
-        link: "https://www.Graspins.com/create/",
+        name: "Data Analytics",
+        link: "https://www.Graspins.com/services/data-analytics/",
       },
       {
-        name: "Explore",
-        link: "https://www.Graspins.com/explore/",
+        name: "Digital Marketing",
+        link: "https://www.Graspins.com/services/digital-marketing/",
       },
       {
-        name: "Terms & Services",
-        link: "https://www.Graspins.com/terms-and-services/",
+        name: "IT Consulting",
+        link: "https://www.Graspins.com/services/it-consulting/",
       },
     ],
   },
   {
-    title: "Community",
+    title: "Company",
     links: [
       {
-        name: "Help Center",
-        link: "https://www.Graspins.com/help-center/",
+        name: "About Us",
+        link: "https://www.Graspins.com/about/",
       },
       {
-        name: "Partners",
-        link: "https://www.Graspins.com/partners/",
+        name: "Case Studies",
+        link: "https://www.Graspins.com/case-studies/",
       },
       {
-        name: "Suggestions",
-        link: "https://www.Graspins.com/suggestions/",
+        name: "Careers",
+        link: "https://www.Graspins.com/careers/",
       },
       {
         name: "Blog",
         link: "https://www.Graspins.com/blog/",
       },
       {
-        name: "Newsletters",
-        link: "https://www.Graspins.com/newsletters/",
+        name: "Contact",
+        link: "https://www.Graspins.com/contact/",
       },
     ],
   },
   {
-    title: "Partner",
+    title: "Resources",
     links: [
       {
-        name: "Our Partner",
-        link: "https://www.Graspins.com/our-partner/",
+        name: "Documentation",
+        link: "https://www.Graspins.com/resources/documentation/",
       },
       {
-        name: "Become a Partner",
-        link: "https://www.Graspins.com/become-a-partner/",
+        name: "Support",
+        link: "https://www.Graspins.com/support/",
       },
     ],
   },
