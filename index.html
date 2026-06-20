@@ -2,35 +2,14 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/png" href="assets/logoicon.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Graspins Innovations</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script>
-      tailwind.config = {
-        theme: {
-          extend: {
-            colors: {
-              primary: "#00040f",
-              secondary: "#00f6ff",
-              dimWhite: "rgba(255, 255, 255, 0.7)",
-              dimBlue: "rgba(9, 151, 124, 0.1)",
-            },
-            fontFamily: {
-              poppins: ["Poppins", "sans-serif"],
-            },
-          },
-          screens: {
-            xs: "480px",
-            ss: "620px",
-            sm: "768px",
-            md: "1060px",
-            lg: "1200px",
-            xl: "1700px",
-          },
-        },
-      };
-    </script>
+    <meta name="description" content="Graspins Innovations — custom software development, cloud solutions, and digital transformation services that drive your business success." />
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png" />
+    <link rel="apple-touch-icon" href="assets/apple-touch-icon.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" />
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body class="bg-primary w-full overflow-x-hidden">
@@ -38,8 +17,8 @@
     <div class="sm:px-16 px-6 flex justify-center items-center">
       <div class="xl:max-w-[1280px] w-full">
         <nav class="w-full flex py-6 justify-between items-center navbar">
-          <a href="index.html">
-            <img src="assets/logo.svg" alt="Graspins" class="w-[200px] h-[60px] cursor-pointer" />
+          <a href="/">
+            <img src="assets/logo.webp" alt="Graspins" class="w-[200px] h-[60px] cursor-pointer" />
           </a>
           <ul class="list-none sm:flex hidden justify-end items-center flex-1">
             <li class="font-poppins font-normal cursor-pointer text-[16px] mr-10 text-white">
@@ -120,7 +99,7 @@
             </p>
           </div>
           <div class="flex-1 flex justify-center items-center md:my-0 my-10 relative">
-            <img src="assets/robot.png" alt="billing" class="w-[100%] h-[100%] relative z-[5]" />
+            <img src="assets/robot.webp" alt="Digital transformation" width="600" height="600" fetchpriority="high" decoding="async" class="w-[100%] h-[100%] relative z-[5]" />
             <div class="absolute z-[0] w-[40%] h-[35%] top-0 pink__gradient"></div>
             <div class="absolute z-[1] w-[80%] h-[80%] rounded-full white__gradient bottom-40"></div>
             <div class="absolute z-[0] w-[50%] h-[50%] right-20 bottom-20 blue__gradient"></div>
@@ -206,7 +185,7 @@
         <!-- Billing / Solutions -->
         <section id="product" class="flex md:flex-row flex-col-reverse sm:py-16 py-6">
           <div class="flex-1 flex justify-center items-center md:mr-10 mr-0 md:mt-0 mt-10 relative">
-            <img src="assets/bill.png" alt="billing" class="w-[100%] h-[100%] relative z-[5]" />
+            <img src="assets/bill.webp" alt="IT infrastructure" width="600" height="600" loading="lazy" decoding="async" class="w-[100%] h-[100%] relative z-[5]" />
             <div class="absolute z-[3] -left-1/2 top-0 w-[50%] h-[50%] rounded-full white__gradient"></div>
             <div class="absolute z-[0] -left-1/2 bottom-0 w-[50%] h-[50%] rounded-full pink__gradient"></div>
           </div>
@@ -232,7 +211,7 @@
             <button type="button" class="py-4 px-6 bg-blue-gradient font-poppins font-medium text-[18px] text-primary outline-none mt-10 rounded-[10px]">Get Started</button>
           </div>
           <div class="flex-1 flex justify-center items-center md:ml-10 ml-0 md:mt-0 mt-10 relative">
-            <img src="assets/card.png" alt="card" class="w-[100%] h-[100%]" />
+            <img src="assets/card.webp" alt="Digital solutions" width="600" height="600" loading="lazy" decoding="async" class="w-[100%] h-[100%]" />
           </div>
         </section>
 
@@ -252,7 +231,7 @@
               <img src="assets/quotes.svg" alt="double-quotes" class="w-[42px] h-[27px] object-contain" />
               <p class="font-poppins font-normal text-[18px] leading-[32px] text-white my-10">Their expertise in cloud migration transformed our infrastructure completely. Highly recommended!</p>
               <div class="flex flex-row">
-                <img src="assets/people01.png" alt="Sarah Johnson" class="w-[48px] h-[48px] rounded-full" />
+                <img src="assets/people01.webp" alt="Sarah Johnson" width="48" height="48" loading="lazy" decoding="async" class="w-[48px] h-[48px] rounded-full" />
                 <div class="flex flex-col ml-4">
                   <h4 class="font-poppins font-semibold text-[20px] leading-[32px] text-white">Sarah Johnson</h4>
                   <p class="font-poppins font-normal text-[16px] leading-[24px] text-white">CTO, TechCorp</p>
@@ -263,7 +242,7 @@
               <img src="assets/quotes.svg" alt="double-quotes" class="w-[42px] h-[27px] object-contain" />
               <p class="font-poppins font-normal text-[18px] leading-[32px] text-white my-10">The custom software solution they developed has streamlined our operations significantly.</p>
               <div class="flex flex-row">
-                <img src="assets/people02.png" alt="Michael Chen" class="w-[48px] h-[48px] rounded-full" />
+                <img src="assets/people02.webp" alt="Michael Chen" width="48" height="48" loading="lazy" decoding="async" class="w-[48px] h-[48px] rounded-full" />
                 <div class="flex flex-col ml-4">
                   <h4 class="font-poppins font-semibold text-[20px] leading-[32px] text-white">Michael Chen</h4>
                   <p class="font-poppins font-normal text-[16px] leading-[24px] text-white">Operations Director</p>
@@ -274,7 +253,7 @@
               <img src="assets/quotes.svg" alt="double-quotes" class="w-[42px] h-[27px] object-contain" />
               <p class="font-poppins font-normal text-[18px] leading-[32px] text-white my-10">Outstanding data analytics and visualization services that helped us make better business decisions.</p>
               <div class="flex flex-row">
-                <img src="assets/people03.png" alt="Emily Rodriguez" class="w-[48px] h-[48px] rounded-full" />
+                <img src="assets/people03.webp" alt="Emily Rodriguez" width="48" height="48" loading="lazy" decoding="async" class="w-[48px] h-[48px] rounded-full" />
                 <div class="flex flex-col ml-4">
                   <h4 class="font-poppins font-semibold text-[20px] leading-[32px] text-white">Emily Rodriguez</h4>
                   <p class="font-poppins font-normal text-[16px] leading-[24px] text-white">Data Analytics Lead</p>
@@ -288,16 +267,16 @@
         <section class="flex justify-center items-center my-4">
           <div class="flex justify-center items-center flex-wrap w-full">
             <div class="flex-1 flex justify-center items-center sm:min-w-[192px] min-w-[120px]">
-              <img src="assets/airbnb.png" alt="client" class="sm:w-[192px] w-[100px] object-contain" />
+              <img src="assets/airbnb.webp" alt="client" loading="lazy" decoding="async" class="sm:w-[192px] w-[100px] object-contain" />
             </div>
             <div class="flex-1 flex justify-center items-center sm:min-w-[192px] min-w-[120px]">
-              <img src="assets/binance.png" alt="client" class="sm:w-[192px] w-[100px] object-contain" />
+              <img src="assets/binance.webp" alt="client" loading="lazy" decoding="async" class="sm:w-[192px] w-[100px] object-contain" />
             </div>
             <div class="flex-1 flex justify-center items-center sm:min-w-[192px] min-w-[120px]">
-              <img src="assets/coinbase.png" alt="client" class="sm:w-[192px] w-[100px] object-contain" />
+              <img src="assets/coinbase.webp" alt="client" loading="lazy" decoding="async" class="sm:w-[192px] w-[100px] object-contain" />
             </div>
             <div class="flex-1 flex justify-center items-center sm:min-w-[192px] min-w-[120px]">
-              <img src="assets/dropbox.png" alt="client" class="sm:w-[192px] w-[100px] object-contain" />
+              <img src="assets/dropbox.webp" alt="client" loading="lazy" decoding="async" class="sm:w-[192px] w-[100px] object-contain" />
             </div>
           </div>
         </section>
@@ -319,7 +298,7 @@
         <section class="flex justify-center items-center sm:py-16 py-6 flex-col">
           <div class="flex justify-center items-start md:flex-row flex-col mb-8 w-full">
             <div class="flex-[1] flex flex-col justify-start mr-10">
-              <img src="assets/logo.svg" alt="Graspins" class="w-[266px] h-[72.14px] object-contain" />
+              <img src="assets/logo.webp" alt="Graspins" class="w-[266px] h-[72.14px] object-contain" />
               <p class="font-poppins font-normal text-dimWhite text-[18px] leading-[30.8px] mt-4 max-w-[312px]">
                 A new way to make the payments easy, reliable and secure.
               </p>
@@ -340,7 +319,7 @@
                 <ul class="list-none mt-4">
                   <li class="font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-secondary cursor-pointer mb-4"><a href="https://www.Graspins.com/about/">About Us</a></li>
                   <li class="font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-secondary cursor-pointer mb-4"><a href="https://www.Graspins.com/case-studies/">Case Studies</a></li>
-                  <li class="font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-secondary cursor-pointer mb-4"><a href="careers.html">Careers</a></li>
+                  <li class="font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-secondary cursor-pointer mb-4"><a href="/careers">Careers</a></li>
                   <li class="font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-secondary cursor-pointer mb-4"><a href="https://www.Graspins.com/blog/">Blog</a></li>
                   <li class="font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-secondary cursor-pointer mb-0"><a href="https://www.Graspins.com/contact/">Contact</a></li>
                 </ul>

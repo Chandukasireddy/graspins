@@ -38,3 +38,12 @@ desktop.ini
 
 # Archives
 *.zip
+
+# Unoptimized source rasters — kept locally for re-running the image
+# optimizer, but not committed/deployed (the site uses the .webp versions).
+# Originals are also preserved in old_react_code/src/assets/.
+assets/*.png
+!assets/favicon-32.png
+!assets/apple-touch-icon.png
+assets/logo.svg
+assets/logo_old.svg

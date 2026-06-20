@@ -1,0 +1,15 @@
+{
+  "name": "graspins-static",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Graspins static website (vanilla HTML + compiled Tailwind)",
+  "scripts": {
+    "build:css": "tailwindcss -c tailwind.config.cjs -i tailwind.src.css -o css/styles.css --minify",
+    "watch:css": "tailwindcss -c tailwind.config.cjs -i tailwind.src.css -o css/styles.css --watch",
+    "build:img": "node scripts/optimize-images.mjs"
+  },
+  "devDependencies": {
+    "sharp": "^0.33.0",
+    "tailwindcss": "^3.4.0"
+  }
+}
