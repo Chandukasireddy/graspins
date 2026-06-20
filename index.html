@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" href="assets/logoicon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Graspins Innovations</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              primary: "#00040f",
+              secondary: "#00f6ff",
+              dimWhite: "rgba(255, 255, 255, 0.7)",
+              dimBlue: "rgba(9, 151, 124, 0.1)",
+            },
+            fontFamily: {
+              poppins: ["Poppins", "sans-serif"],
+            },
+          },
+          screens: {
+            xs: "480px",
+            ss: "620px",
+            sm: "768px",
+            md: "1060px",
+            lg: "1200px",
+            xl: "1700px",
+          },
+        },
+      };
+    </script>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body class="bg-primary w-full overflow-x-hidden">
+    <!-- Navbar -->
+    <div class="sm:px-16 px-6 flex justify-center items-center">
+      <div class="xl:max-w-[1280px] w-full">
+        <nav class="w-full flex py-6 justify-between items-center navbar">
+          <a href="index.html">
+            <img src="assets/logo.svg" alt="Graspins" class="w-[200px] h-[60px] cursor-pointer" />
+          </a>
+          <ul class="list-none sm:flex hidden justify-end items-center flex-1">
+            <li class="font-poppins font-normal cursor-pointer text-[16px] mr-10 text-white">
+              <a href="#home">Home</a>
+            </li>
+            <li class="font-poppins font-normal cursor-pointer text-[16px] mr-10 text-white">
+              <a href="#features">Services</a>
+            </li>
+            <li class="font-poppins font-normal cursor-pointer text-[16px] mr-10 text-white">
+              <a href="#product">Solutions</a>
+            </li>
+            <li class="font-poppins font-normal cursor-pointer text-[16px] mr-0 text-white">
+              <a href="#clients">Clients</a>
+            </li>
+          </ul>
+          <div class="sm:hidden flex flex-1 justify-end items-center">
+            <img id="menu-icon" src="assets/menu.svg" alt="menu" class="w-[28px] h-[28px] object-contain" />
+            <button id="menu-toggle" class="absolute inset-0 sm:hidden opacity-0" aria-label="Toggle menu"></button>
+            <div id="mobile-menu" class="hidden p-6 bg-black-gradient absolute top-20 right-0 mx-4 my-2 min-w-[140px] rounded-xl sidebar">
+              <ul class="list-none flex flex-col justify-end items-center flex-1">
+                <li class="font-poppins font-normal cursor-pointer text-[16px] mb-4 text-white">
+                  <a href="#home">Home</a>
+                </li>
+                <li class="font-poppins font-normal cursor-pointer text-[16px] mb-4 text-white">
+                  <a href="#features">Services</a>
+                </li>
+                <li class="font-poppins font-normal cursor-pointer text-[16px] mb-4 text-white">
+                  <a href="#product">Solutions</a>
+                </li>
+                <li class="font-poppins font-normal cursor-pointer text-[16px] mr-0 text-white">
+                  <a href="#clients">Clients</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+
+    <!-- Hero -->
+    <div class="bg-primary flex justify-center items-start">
+      <div class="xl:max-w-[1280px] w-full">
+        <section id="home" class="flex md:flex-row flex-col sm:py-16 py-6">
+          <div class="flex-1 flex justify-center items-start flex-col xl:px-0 sm:px-16 px-6">
+            <div class="flex flex-row items-center py-[6px] px-4 bg-discount-gradient rounded-[10px] mb-2">
+              <img src="assets/Discount.svg" alt="discount" class="w-[32px] h-[32px]" />
+              <p class="font-poppins font-normal text-dimWhite text-[18px] leading-[30.8px] ml-2">
+                <span class="text-white">Innovative</span> Digital
+                <span class="text-white">Solutions </span> Provider
+              </p>
+            </div>
+            <div class="flex flex-row justify-between items-center w-full">
+              <h1 class="flex-1 font-poppins font-semibold ss:text-[72px] text-[52px] text-white ss:leading-[100.8px] leading-[75px]">
+                Transforming Ideas <br class="sm:block hidden" />
+                <span class="text-gradient">Into Digital</span>
+              </h1>
+              <div class="ss:flex hidden md:mr-4 mr-0">
+                <a href="#" class="flex justify-center items-center w-[140px] h-[140px] rounded-full bg-blue-gradient p-[2px] cursor-pointer">
+                  <div class="flex justify-center items-center flex-col bg-primary w-[100%] h-[100%] rounded-full">
+                    <div class="flex justify-center items-start flex-row">
+                      <p class="font-poppins font-medium text-[18px] leading-[23px] mr-2">
+                        <span class="text-gradient">Get</span>
+                      </p>
+                      <img src="assets/arrow-up.svg" alt="arrow" class="w-[23px] h-[23px] object-contain" />
+                    </div>
+                    <p class="font-poppins font-medium text-[18px] leading-[23px]">
+                      <span class="text-gradient">Started</span>
+                    </p>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <h1 class="font-poppins font-semibold ss:text-[68px] text-[52px] text-white ss:leading-[100px] leading-[75px] w-full">
+              Excellence.
+            </h1>
+            <p class="font-poppins font-normal text-dimWhite text-[18px] leading-[30.8px] max-w-[470px] mt-5">
+              Empowering businesses with cutting-edge technology solutions, cloud services, and digital transformation expertise. We build robust applications and deliver comprehensive IT services to drive your success.
+            </p>
+          </div>
+          <div class="flex-1 flex justify-center items-center md:my-0 my-10 relative">
+            <img src="assets/robot.png" alt="billing" class="w-[100%] h-[100%] relative z-[5]" />
+            <div class="absolute z-[0] w-[40%] h-[35%] top-0 pink__gradient"></div>
+            <div class="absolute z-[1] w-[80%] h-[80%] rounded-full white__gradient bottom-40"></div>
+            <div class="absolute z-[0] w-[50%] h-[50%] right-20 bottom-20 blue__gradient"></div>
+          </div>
+          <div class="ss:hidden flex justify-center items-center">
+            <a href="#" class="flex justify-center items-center w-[140px] h-[140px] rounded-full bg-blue-gradient p-[2px] cursor-pointer">
+              <div class="flex justify-center items-center flex-col bg-primary w-[100%] h-[100%] rounded-full">
+                <div class="flex justify-center items-start flex-row">
+                  <p class="font-poppins font-medium text-[18px] leading-[23px] mr-2">
+                    <span class="text-gradient">Get</span>
+                  </p>
+                  <img src="assets/arrow-up.svg" alt="arrow" class="w-[23px] h-[23px] object-contain" />
+                </div>
+                <p class="font-poppins font-medium text-[18px] leading-[23px]">
+                  <span class="text-gradient">Started</span>
+                </p>
+              </div>
+            </a>
+          </div>
+        </section>
+      </div>
+    </div>
+
+    <!-- Main content -->
+    <div class="bg-primary sm:px-16 px-6 flex justify-center items-start">
+      <div class="xl:max-w-[1280px] w-full">
+        <!-- Stats -->
+        <section class="flex justify-center items-center flex-row flex-wrap sm:mb-20 mb-6">
+          <div class="flex-1 flex justify-start items-center flex-row m-3">
+            <h4 class="font-poppins font-semibold xs:text-[40px] text-[30px] xs:leading-[53px] leading-[43px] text-white">500+</h4>
+            <p class="font-poppins font-normal xs:text-[20px] text-[15px] xs:leading-[26px] leading-[21px] text-gradient uppercase ml-3">Projects Delivered</p>
+          </div>
+          <div class="flex-1 flex justify-start items-center flex-row m-3">
+            <h4 class="font-poppins font-semibold xs:text-[40px] text-[30px] xs:leading-[53px] leading-[43px] text-white">100+</h4>
+            <p class="font-poppins font-normal xs:text-[20px] text-[15px] xs:leading-[26px] leading-[21px] text-gradient uppercase ml-3">Enterprise Clients</p>
+          </div>
+          <div class="flex-1 flex justify-start items-center flex-row m-3">
+            <h4 class="font-poppins font-semibold xs:text-[40px] text-[30px] xs:leading-[53px] leading-[43px] text-white">98%</h4>
+            <p class="font-poppins font-normal xs:text-[20px] text-[15px] xs:leading-[26px] leading-[21px] text-gradient uppercase ml-3">Success Rate</p>
+          </div>
+        </section>
+
+        <!-- Business / Services -->
+        <section id="features" class="flex md:flex-row flex-col sm:py-16 py-6">
+          <div class="flex-1 flex justify-center items-start flex-col">
+            <h2 class="font-poppins font-semibold xs:text-[48px] text-[40px] text-white xs:leading-[76.8px] leading-[66.8px] w-full">Your Vision, <br class="sm:block hidden" />Our Expertise.</h2>
+            <p class="font-poppins font-normal text-dimWhite text-[18px] leading-[30.8px] max-w-[470px] mt-5">
+              From cloud migration to custom software development, we provide end-to-end IT solutions that drive business growth. Our team of experts combines technical excellence with industry best practices to deliver innovative solutions tailored to your needs.
+            </p>
+            <button type="button" class="py-4 px-6 bg-blue-gradient font-poppins font-medium text-[18px] text-primary outline-none mt-10 rounded-[10px]">Get Started</button>
+          </div>
+          <div class="flex-1 flex justify-center items-center md:ml-10 ml-0 md:mt-0 mt-10 relative flex-col">
+            <div class="flex flex-row p-6 rounded-[20px] mb-6 feature-card">
+              <div class="w-[64px] h-[64px] rounded-full flex justify-center items-center bg-dimBlue">
+                <img src="assets/Star.svg" alt="icon" class="w-[50%] h-[50%] object-contain" />
+              </div>
+              <div class="flex-1 flex flex-col ml-3">
+                <h4 class="font-poppins font-semibold text-white text-[18px] leading-[23px] mb-1">Custom Software Development</h4>
+                <p class="font-poppins font-normal text-dimWhite text-[16px] leading-[24px]">Tailored solutions for web, mobile, and enterprise applications built with cutting-edge technologies.</p>
+              </div>
+            </div>
+            <div class="flex flex-row p-6 rounded-[20px] mb-6 feature-card">
+              <div class="w-[64px] h-[64px] rounded-full flex justify-center items-center bg-dimBlue">
+                <img src="assets/Shield.svg" alt="icon" class="w-[50%] h-[50%] object-contain" />
+              </div>
+              <div class="flex-1 flex flex-col ml-3">
+                <h4 class="font-poppins font-semibold text-white text-[18px] leading-[23px] mb-1">Cloud Solutions</h4>
+                <p class="font-poppins font-normal text-dimWhite text-[16px] leading-[24px]">Expert cloud migration, management, and optimization services for enhanced scalability and security.</p>
+              </div>
+            </div>
+            <div class="flex flex-row p-6 rounded-[20px] mb-0 feature-card">
+              <div class="w-[64px] h-[64px] rounded-full flex justify-center items-center bg-dimBlue">
+                <img src="assets/Send.svg" alt="icon" class="w-[50%] h-[50%] object-contain" />
+              </div>
+              <div class="flex-1 flex flex-col ml-3">
+                <h4 class="font-poppins font-semibold text-white text-[18px] leading-[23px] mb-1">Digital Transformation</h4>
+                <p class="font-poppins font-normal text-dimWhite text-[16px] leading-[24px]">End-to-end digital solutions including data analytics, visualization, and business process automation.</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Billing / Solutions -->
+        <section id="product" class="flex md:flex-row flex-col-reverse sm:py-16 py-6">
+          <div class="flex-1 flex justify-center items-center md:mr-10 mr-0 md:mt-0 mt-10 relative">
+            <img src="assets/bill.png" alt="billing" class="w-[100%] h-[100%] relative z-[5]" />
+            <div class="absolute z-[3] -left-1/2 top-0 w-[50%] h-[50%] rounded-full white__gradient"></div>
+            <div class="absolute z-[0] -left-1/2 bottom-0 w-[50%] h-[50%] rounded-full pink__gradient"></div>
+          </div>
+          <div class="flex-1 flex justify-center items-start flex-col">
+            <h2 class="font-poppins font-semibold xs:text-[48px] text-[40px] text-white xs:leading-[76.8px] leading-[66.8px] w-full">Streamline your IT <br class="sm:block hidden" /> infrastructure &amp; operations.</h2>
+            <p class="font-poppins font-normal text-dimWhite text-[18px] leading-[30.8px] max-w-[470px] mt-5">
+              Our comprehensive IT infrastructure management solutions help you optimize costs, enhance security, and improve operational efficiency. From cloud migration to infrastructure automation, we've got you covered.
+            </p>
+            <div class="flex flex-row flex-wrap sm:mt-10 mt-6">
+              <img src="assets/apple.svg" alt="app-store" class="w-[128px] h-[42px] object-contain mr-5 cursor-pointer" />
+              <img src="assets/google.svg" alt="google-play" class="w-[128px] h-[42px] object-contain cursor-pointer" />
+            </div>
+          </div>
+        </section>
+
+        <!-- CardDeal -->
+        <section class="flex md:flex-row flex-col sm:py-16 py-6">
+          <div class="flex-1 flex justify-center items-start flex-col">
+            <h2 class="font-poppins font-semibold xs:text-[48px] text-[40px] text-white xs:leading-[76.8px] leading-[66.8px] w-full">Transform your business <br class="sm:block hidden" />with digital solutions.</h2>
+            <p class="font-poppins font-normal text-dimWhite text-[18px] leading-[30.8px] max-w-[470px] mt-5">
+              Leverage our expertise in digital transformation to modernize your business operations. From custom software development to data analytics and automation, we help you stay ahead in the digital age.
+            </p>
+            <button type="button" class="py-4 px-6 bg-blue-gradient font-poppins font-medium text-[18px] text-primary outline-none mt-10 rounded-[10px]">Get Started</button>
+          </div>
+          <div class="flex-1 flex justify-center items-center md:ml-10 ml-0 md:mt-0 mt-10 relative">
+            <img src="assets/card.png" alt="card" class="w-[100%] h-[100%]" />
+          </div>
+        </section>
+
+        <!-- Testimonials -->
+        <section id="clients" class="sm:py-16 py-6 flex-col relative">
+          <div class="absolute z-[0] w-[60%] h-[60%] -right-[50%] rounded-full blue__gradient bottom-40"></div>
+          <div class="w-full flex justify-between items-center md:flex-row flex-col sm:mb-16 mb-6 relative z-[1]">
+            <h2 class="font-poppins font-semibold xs:text-[48px] text-[40px] text-white xs:leading-[76.8px] leading-[66.8px] w-full">See my team words <br class="sm:block hidden" />about our service</h2>
+            <div class="w-full md:mt-0 mt-6">
+              <p class="font-poppins font-normal text-dimWhite text-[18px] leading-[30.8px] text-left max-w-[450px]">
+                Everything you need to accept card payments and grow your business anywhere on the planet.
+              </p>
+            </div>
+          </div>
+          <div class="flex flex-wrap sm:justify-start justify-center w-full feedback-container relative z-[1]">
+            <div class="flex justify-between flex-col px-10 py-12 rounded-[20px] max-w-[370px] md:mr-10 sm:mr-5 mr-0 my-5 feedback-card">
+              <img src="assets/quotes.svg" alt="double-quotes" class="w-[42px] h-[27px] object-contain" />
+              <p class="font-poppins font-normal text-[18px] leading-[32px] text-white my-10">Their expertise in cloud migration transformed our infrastructure completely. Highly recommended!</p>
+              <div class="flex flex-row">
+                <img src="assets/people01.png" alt="Sarah Johnson" class="w-[48px] h-[48px] rounded-full" />
+                <div class="flex flex-col ml-4">
+                  <h4 class="font-poppins font-semibold text-[20px] leading-[32px] text-white">Sarah Johnson</h4>
+                  <p class="font-poppins font-normal text-[16px] leading-[24px] text-white">CTO, TechCorp</p>
+                </div>
+              </div>
+            </div>
+            <div class="flex justify-between flex-col px-10 py-12 rounded-[20px] max-w-[370px] md:mr-10 sm:mr-5 mr-0 my-5 feedback-card">
+              <img src="assets/quotes.svg" alt="double-quotes" class="w-[42px] h-[27px] object-contain" />
+              <p class="font-poppins font-normal text-[18px] leading-[32px] text-white my-10">The custom software solution they developed has streamlined our operations significantly.</p>
+              <div class="flex flex-row">
+                <img src="assets/people02.png" alt="Michael Chen" class="w-[48px] h-[48px] rounded-full" />
+                <div class="flex flex-col ml-4">
+                  <h4 class="font-poppins font-semibold text-[20px] leading-[32px] text-white">Michael Chen</h4>
+                  <p class="font-poppins font-normal text-[16px] leading-[24px] text-white">Operations Director</p>
+                </div>
+              </div>
+            </div>
+            <div class="flex justify-between flex-col px-10 py-12 rounded-[20px] max-w-[370px] md:mr-10 sm:mr-5 mr-0 my-5 feedback-card">
+              <img src="assets/quotes.svg" alt="double-quotes" class="w-[42px] h-[27px] object-contain" />
+              <p class="font-poppins font-normal text-[18px] leading-[32px] text-white my-10">Outstanding data analytics and visualization services that helped us make better business decisions.</p>
+              <div class="flex flex-row">
+                <img src="assets/people03.png" alt="Emily Rodriguez" class="w-[48px] h-[48px] rounded-full" />
+                <div class="flex flex-col ml-4">
+                  <h4 class="font-poppins font-semibold text-[20px] leading-[32px] text-white">Emily Rodriguez</h4>
+                  <p class="font-poppins font-normal text-[16px] leading-[24px] text-white">Data Analytics Lead</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Clients -->
+        <section class="flex justify-center items-center my-4">
+          <div class="flex justify-center items-center flex-wrap w-full">
+            <div class="flex-1 flex justify-center items-center sm:min-w-[192px] min-w-[120px]">
+              <img src="assets/airbnb.png" alt="client" class="sm:w-[192px] w-[100px] object-contain" />
+            </div>
+            <div class="flex-1 flex justify-center items-center sm:min-w-[192px] min-w-[120px]">
+              <img src="assets/binance.png" alt="client" class="sm:w-[192px] w-[100px] object-contain" />
+            </div>
+            <div class="flex-1 flex justify-center items-center sm:min-w-[192px] min-w-[120px]">
+              <img src="assets/coinbase.png" alt="client" class="sm:w-[192px] w-[100px] object-contain" />
+            </div>
+            <div class="flex-1 flex justify-center items-center sm:min-w-[192px] min-w-[120px]">
+              <img src="assets/dropbox.png" alt="client" class="sm:w-[192px] w-[100px] object-contain" />
+            </div>
+          </div>
+        </section>
+
+        <!-- CTA -->
+        <section class="flex justify-center items-center sm:my-16 my-6 sm:px-16 px-6 sm:py-12 py-4 sm:flex-row flex-col bg-black-gradient-2 rounded-[20px] box-shadow">
+          <div class="flex-1 flex flex-col">
+            <h2 class="font-poppins font-semibold xs:text-[48px] text-[40px] text-white xs:leading-[76.8px] leading-[66.8px] w-full">Ready to transform your business?</h2>
+            <p class="font-poppins font-normal text-dimWhite text-[18px] leading-[30.8px] max-w-[470px] mt-5">
+              Let's discuss how our IT solutions can help you achieve your business goals. From cloud migration to custom software development, we're here to drive your success.
+            </p>
+          </div>
+          <div class="flex justify-center items-center sm:ml-10 ml-0">
+            <button type="button" class="py-4 px-6 bg-blue-gradient font-poppins font-medium text-[18px] text-primary outline-none rounded-[10px]">Get Started</button>
+          </div>
+        </section>
+
+        <!-- Footer -->
+        <section class="flex justify-center items-center sm:py-16 py-6 flex-col">
+          <div class="flex justify-center items-start md:flex-row flex-col mb-8 w-full">
+            <div class="flex-[1] flex flex-col justify-start mr-10">
+              <img src="assets/logo.svg" alt="Graspins" class="w-[266px] h-[72.14px] object-contain" />
+              <p class="font-poppins font-normal text-dimWhite text-[18px] leading-[30.8px] mt-4 max-w-[312px]">
+                A new way to make the payments easy, reliable and secure.
+              </p>
+            </div>
+            <div class="flex-[1.5] w-full flex flex-row justify-between flex-wrap md:mt-0 mt-10">
+              <div class="flex flex-col ss:my-0 my-4 min-w-[150px]">
+                <h4 class="font-poppins font-medium text-[18px] leading-[27px] text-white">Services</h4>
+                <ul class="list-none mt-4">
+                  <li class="font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-secondary cursor-pointer mb-4"><a href="https://www.Graspins.com/services/software-development/">Software Development</a></li>
+                  <li class="font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-secondary cursor-pointer mb-4"><a href="https://www.Graspins.com/services/cloud-solutions/">Cloud Solutions</a></li>
+                  <li class="font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-secondary cursor-pointer mb-4"><a href="https://www.Graspins.com/services/data-analytics/">Data Analytics</a></li>
+                  <li class="font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-secondary cursor-pointer mb-4"><a href="https://www.Graspins.com/services/digital-marketing/">Digital Marketing</a></li>
+                  <li class="font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-secondary cursor-pointer mb-0"><a href="https://www.Graspins.com/services/it-consulting/">IT Consulting</a></li>
+                </ul>
+              </div>
+              <div class="flex flex-col ss:my-0 my-4 min-w-[150px]">
+                <h4 class="font-poppins font-medium text-[18px] leading-[27px] text-white">Company</h4>
+                <ul class="list-none mt-4">
+                  <li class="font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-secondary cursor-pointer mb-4"><a href="https://www.Graspins.com/about/">About Us</a></li>
+                  <li class="font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-secondary cursor-pointer mb-4"><a href="https://www.Graspins.com/case-studies/">Case Studies</a></li>
+                  <li class="font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-secondary cursor-pointer mb-4"><a href="careers.html">Careers</a></li>
+                  <li class="font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-secondary cursor-pointer mb-4"><a href="https://www.Graspins.com/blog/">Blog</a></li>
+                  <li class="font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-secondary cursor-pointer mb-0"><a href="https://www.Graspins.com/contact/">Contact</a></li>
+                </ul>
+              </div>
+              <div class="flex flex-col ss:my-0 my-4 min-w-[150px]">
+                <h4 class="font-poppins font-medium text-[18px] leading-[27px] text-white">Resources</h4>
+                <ul class="list-none mt-4">
+                  <li class="font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-secondary cursor-pointer mb-4"><a href="https://www.Graspins.com/resources/documentation/">Documentation</a></li>
+                  <li class="font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-secondary cursor-pointer mb-0"><a href="https://www.Graspins.com/support/">Support</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="w-full flex justify-between items-center md:flex-row flex-col pt-6 border-t-[1px] border-t-[#3F3E45]">
+            <p class="font-poppins font-normal text-center text-[18px] leading-[27px] text-white">Copyright Ⓒ 2024 Graspins. All Rights Reserved.</p>
+            <div class="flex flex-row md:mt-0 mt-6">
+              <a href="https://www.instagram.com/" target="_blank" rel="noopener"><img src="assets/instagram.svg" alt="instagram" class="w-[21px] h-[21px] object-contain cursor-pointer mr-6" /></a>
+              <a href="https://www.facebook.com/" target="_blank" rel="noopener"><img src="assets/facebook.svg" alt="facebook" class="w-[21px] h-[21px] object-contain cursor-pointer mr-6" /></a>
+              <a href="https://www.twitter.com/" target="_blank" rel="noopener"><img src="assets/twitter.svg" alt="twitter" class="w-[21px] h-[21px] object-contain cursor-pointer mr-6" /></a>
+              <a href="https://www.linkedin.com/" target="_blank" rel="noopener"><img src="assets/linkedin.svg" alt="linkedin" class="w-[21px] h-[21px] object-contain cursor-pointer mr-0" /></a>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
