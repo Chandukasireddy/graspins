@@ -43,6 +43,24 @@ for (const [inp, out, w] of toWebp) {
   console.log(`${"logo.svg".padEnd(16)} ${kb(before).padStart(10)}  ->  ${"logo.webp".padEnd(16)} ${kb(after).padStart(10)}`);
 }
 
+// Social share image (Open Graph / Twitter) — 1200x630, logo on brand bg.
+{
+  const bg = await sharp({
+    create: { width: 1200, height: 630, channels: 4, background: { r: 0, g: 4, b: 15, alpha: 1 } },
+  })
+    .png()
+    .toBuffer();
+  const logoBuf = await sharp(`${A}/logo.svg`, { density: 400 })
+    .resize({ width: 760, withoutEnlargement: true })
+    .png()
+    .toBuffer();
+  await sharp(bg)
+    .composite([{ input: logoBuf, gravity: "center" }])
+    .png({ compressionLevel: 9 })
+    .toFile(`${A}/og-image.png`);
+  console.log(`og-image.png    ${kb((await stat(`${A}/og-image.png`)).size).padStart(10)}`);
+}
+
 // Favicons from logoicon.png (transparent, square, contain)
 const favBg = { r: 0, g: 0, b: 0, alpha: 0 };
 await sharp(`${A}/logoicon.png`)

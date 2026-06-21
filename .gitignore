@@ -45,5 +45,6 @@ desktop.ini
 assets/*.png
 !assets/favicon-32.png
 !assets/apple-touch-icon.png
+!assets/og-image.png
 assets/logo.svg
 assets/logo_old.svg
