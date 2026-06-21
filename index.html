@@ -43,39 +43,28 @@
       <div class="xl:max-w-[1280px] w-full">
         <nav class="w-full flex py-6 justify-between items-center navbar">
           <a href="/">
-            <img src="assets/logo.webp" alt="Graspins" class="w-[200px] h-[60px] cursor-pointer" />
+            <img src="/assets/logo.webp" alt="Graspins Innovations" class="w-[200px] h-[60px] object-contain cursor-pointer" />
           </a>
           <ul class="list-none sm:flex hidden justify-end items-center flex-1">
-            <li class="font-poppins font-normal cursor-pointer text-[16px] mr-10 text-white">
-              <a href="#home">Home</a>
-            </li>
-            <li class="font-poppins font-normal cursor-pointer text-[16px] mr-10 text-white">
-              <a href="#features">Services</a>
-            </li>
-            <li class="font-poppins font-normal cursor-pointer text-[16px] mr-10 text-white">
-              <a href="#product">Solutions</a>
-            </li>
-            <li class="font-poppins font-normal cursor-pointer text-[16px] mr-0 text-white">
-              <a href="#clients">Clients</a>
-            </li>
+            <li class="font-poppins font-normal cursor-pointer text-[16px] mr-10 text-white"><a href="/">Home</a></li>
+            <li class="font-poppins font-normal cursor-pointer text-[16px] mr-10 text-white"><a href="/services">Services</a></li>
+            <li class="font-poppins font-normal cursor-pointer text-[16px] mr-10 text-white"><a href="/case-studies">Case Studies</a></li>
+            <li class="font-poppins font-normal cursor-pointer text-[16px] mr-10 text-white"><a href="/blog">Blog</a></li>
+            <li class="font-poppins font-normal cursor-pointer text-[16px] mr-10 text-white"><a href="/about">About</a></li>
+            <li class="font-poppins font-normal cursor-pointer text-[16px] mr-0 text-white"><a href="/contact">Contact</a></li>
           </ul>
           <div class="sm:hidden flex flex-1 justify-end items-center">
-            <img id="menu-icon" src="assets/menu.svg" alt="menu" class="w-[28px] h-[28px] object-contain" />
-            <button id="menu-toggle" class="absolute inset-0 sm:hidden opacity-0" aria-label="Toggle menu"></button>
-            <div id="mobile-menu" class="hidden p-6 bg-black-gradient absolute top-20 right-0 mx-4 my-2 min-w-[140px] rounded-xl sidebar">
+            <button id="menu-toggle" aria-label="Toggle menu" class="bg-transparent border-0 p-0 cursor-pointer">
+              <img id="menu-icon" src="/assets/menu.svg" alt="" class="w-[28px] h-[28px] object-contain" />
+            </button>
+            <div id="mobile-menu" class="hidden p-6 bg-black-gradient absolute top-20 right-0 mx-4 my-2 min-w-[160px] rounded-xl sidebar z-10">
               <ul class="list-none flex flex-col justify-end items-center flex-1">
-                <li class="font-poppins font-normal cursor-pointer text-[16px] mb-4 text-white">
-                  <a href="#home">Home</a>
-                </li>
-                <li class="font-poppins font-normal cursor-pointer text-[16px] mb-4 text-white">
-                  <a href="#features">Services</a>
-                </li>
-                <li class="font-poppins font-normal cursor-pointer text-[16px] mb-4 text-white">
-                  <a href="#product">Solutions</a>
-                </li>
-                <li class="font-poppins font-normal cursor-pointer text-[16px] mr-0 text-white">
-                  <a href="#clients">Clients</a>
-                </li>
+                <li class="font-poppins font-normal cursor-pointer text-[16px] mb-4 text-white"><a href="/">Home</a></li>
+                <li class="font-poppins font-normal cursor-pointer text-[16px] mb-4 text-white"><a href="/services">Services</a></li>
+                <li class="font-poppins font-normal cursor-pointer text-[16px] mb-4 text-white"><a href="/case-studies">Case Studies</a></li>
+                <li class="font-poppins font-normal cursor-pointer text-[16px] mb-4 text-white"><a href="/blog">Blog</a></li>
+                <li class="font-poppins font-normal cursor-pointer text-[16px] mb-4 text-white"><a href="/about">About</a></li>
+                <li class="font-poppins font-normal cursor-pointer text-[16px] mr-0 text-white"><a href="/contact">Contact</a></li>
               </ul>
             </div>
           </div>
@@ -101,7 +90,7 @@
                 <span class="text-gradient">Solutions That</span>
               </h1>
               <div class="ss:flex hidden md:mr-4 mr-0">
-                <a href="#" class="flex justify-center items-center w-[140px] h-[140px] rounded-full bg-blue-gradient p-[2px] cursor-pointer">
+                <a href="/contact" class="flex justify-center items-center w-[140px] h-[140px] rounded-full bg-blue-gradient p-[2px] cursor-pointer">
                   <div class="flex justify-center items-center flex-col bg-primary w-[100%] h-[100%] rounded-full">
                     <div class="flex justify-center items-start flex-row">
                       <p class="font-poppins font-medium text-[18px] leading-[23px] mr-2">
@@ -130,7 +119,7 @@
             <div class="absolute z-[0] w-[50%] h-[50%] right-20 bottom-20 blue__gradient"></div>
           </div>
           <div class="ss:hidden flex justify-center items-center">
-            <a href="#" class="flex justify-center items-center w-[140px] h-[140px] rounded-full bg-blue-gradient p-[2px] cursor-pointer">
+            <a href="/contact" class="flex justify-center items-center w-[140px] h-[140px] rounded-full bg-blue-gradient p-[2px] cursor-pointer">
               <div class="flex justify-center items-center flex-col bg-primary w-[100%] h-[100%] rounded-full">
                 <div class="flex justify-center items-start flex-row">
                   <p class="font-poppins font-medium text-[18px] leading-[23px] mr-2">
@@ -174,7 +163,7 @@
             <p class="font-poppins font-normal text-dimWhite text-[18px] leading-[30.8px] max-w-[470px] mt-5">
               From AI strategy and architecture to development, deployment, and ongoing maintenance, we deliver end-to-end AI solutions that drive measurable business growth. Our skilled AI engineers and architects combine deep technical expertise with proven best practices to build exactly what your business needs.
             </p>
-            <button type="button" class="py-4 px-6 bg-blue-gradient font-poppins font-medium text-[18px] text-primary outline-none mt-10 rounded-[10px]">Get Started</button>
+            <button type="button" onclick="location.href='/contact'" class="py-4 px-6 bg-blue-gradient font-poppins font-medium text-[18px] text-primary outline-none mt-10 rounded-[10px]">Get Started</button>
           </div>
           <div class="flex-1 flex justify-center items-center md:ml-10 ml-0 md:mt-0 mt-10 relative flex-col">
             <div class="flex flex-row p-6 rounded-[20px] mb-6 feature-card">
@@ -219,7 +208,7 @@
             <p class="font-poppins font-normal text-dimWhite text-[18px] leading-[30.8px] max-w-[470px] mt-5">
               We design and operate robust AI platforms — from data pipelines and model training to deployment and monitoring. Whether you're a startup or a Fortune 500, we build AI that is secure, scalable, and built to last.
             </p>
-            <button type="button" class="py-4 px-6 bg-blue-gradient font-poppins font-medium text-[18px] text-primary outline-none sm:mt-10 mt-6 rounded-[10px]">Talk to our AI experts</button>
+            <button type="button" onclick="location.href='/contact'" class="py-4 px-6 bg-blue-gradient font-poppins font-medium text-[18px] text-primary outline-none sm:mt-10 mt-6 rounded-[10px]">Talk to our AI experts</button>
           </div>
         </section>
 
@@ -230,7 +219,7 @@
             <p class="font-poppins font-normal text-dimWhite text-[18px] leading-[30.8px] max-w-[470px] mt-5">
               Leverage our expertise in machine learning, generative AI, and intelligent automation to modernize operations, unlock insights from your data, and stay ahead of the competition. We also build the custom software that brings your AI to life.
             </p>
-            <button type="button" class="py-4 px-6 bg-blue-gradient font-poppins font-medium text-[18px] text-primary outline-none mt-10 rounded-[10px]">Get Started</button>
+            <button type="button" onclick="location.href='/contact'" class="py-4 px-6 bg-blue-gradient font-poppins font-medium text-[18px] text-primary outline-none mt-10 rounded-[10px]">Get Started</button>
           </div>
           <div class="flex-1 flex justify-center items-center md:ml-10 ml-0 md:mt-0 mt-10 relative">
             <img src="assets/card.webp" alt="AI-powered transformation" width="600" height="600" loading="lazy" decoding="async" class="w-[100%] h-[100%]" />
@@ -238,67 +227,40 @@
         </section>
 
         <!-- Testimonials -->
-        <section id="clients" class="sm:py-16 py-6 flex-col relative">
+        <section id="testimonials" class="sm:py-16 py-6 flex-col relative">
           <div class="absolute z-[0] w-[60%] h-[60%] -right-[50%] rounded-full blue__gradient bottom-40"></div>
           <div class="w-full flex justify-between items-center md:flex-row flex-col sm:mb-16 mb-6 relative z-[1]">
-            <h2 class="font-poppins font-semibold xs:text-[48px] text-[40px] text-white xs:leading-[76.8px] leading-[66.8px] w-full">What our clients <br class="sm:block hidden" />say about us</h2>
+            <h2 class="font-poppins font-semibold xs:text-[48px] text-[40px] text-white xs:leading-[76.8px] leading-[66.8px] w-full">What people say <br class="sm:block hidden" />about working with us</h2>
             <div class="w-full md:mt-0 mt-6">
               <p class="font-poppins font-normal text-dimWhite text-[18px] leading-[30.8px] text-left max-w-[450px]">
-                Trusted by teams building the future with AI — from fast-moving startups to global enterprises.
+                Feedback from the teams and leaders we have partnered with on AI projects.
               </p>
             </div>
           </div>
           <div class="flex flex-wrap sm:justify-start justify-center w-full feedback-container relative z-[1]">
             <div class="flex justify-between flex-col px-10 py-12 rounded-[20px] max-w-[370px] md:mr-10 sm:mr-5 mr-0 my-5 feedback-card">
-              <img src="assets/quotes.svg" alt="double-quotes" class="w-[42px] h-[27px] object-contain" />
-              <p class="font-poppins font-normal text-[18px] leading-[32px] text-white my-10">Their AI engineers designed and deployed a recommendation engine that boosted our conversions dramatically. Truly world-class.</p>
-              <div class="flex flex-row">
-                <img src="assets/people01.webp" alt="Sarah Johnson" width="48" height="48" loading="lazy" decoding="async" class="w-[48px] h-[48px] rounded-full" />
-                <div class="flex flex-col ml-4">
-                  <h4 class="font-poppins font-semibold text-[20px] leading-[32px] text-white">Sarah Johnson</h4>
-                  <p class="font-poppins font-normal text-[16px] leading-[24px] text-white">CTO, TechCorp</p>
-                </div>
+              <img src="/assets/quotes.svg" alt="" class="w-[42px] h-[27px] object-contain" />
+              <p class="font-poppins font-normal text-[18px] leading-[32px] text-white my-10">Their AI engineers designed and deployed a recommendation engine that boosted our conversions dramatically. Truly world-class work.</p>
+              <div class="flex flex-col">
+                <h4 class="font-poppins font-semibold text-[18px] leading-[28px] text-white">Chief Technology Officer</h4>
+                <p class="font-poppins font-normal text-[16px] leading-[24px] text-dimWhite">B2B SaaS company</p>
               </div>
             </div>
             <div class="flex justify-between flex-col px-10 py-12 rounded-[20px] max-w-[370px] md:mr-10 sm:mr-5 mr-0 my-5 feedback-card">
-              <img src="assets/quotes.svg" alt="double-quotes" class="w-[42px] h-[27px] object-contain" />
+              <img src="/assets/quotes.svg" alt="" class="w-[42px] h-[27px] object-contain" />
               <p class="font-poppins font-normal text-[18px] leading-[32px] text-white my-10">Graspins built a custom generative-AI assistant that completely transformed how our team works every day.</p>
-              <div class="flex flex-row">
-                <img src="assets/people02.webp" alt="Michael Chen" width="48" height="48" loading="lazy" decoding="async" class="w-[48px] h-[48px] rounded-full" />
-                <div class="flex flex-col ml-4">
-                  <h4 class="font-poppins font-semibold text-[20px] leading-[32px] text-white">Michael Chen</h4>
-                  <p class="font-poppins font-normal text-[16px] leading-[24px] text-white">Operations Director</p>
-                </div>
+              <div class="flex flex-col">
+                <h4 class="font-poppins font-semibold text-[18px] leading-[28px] text-white">Head of Operations</h4>
+                <p class="font-poppins font-normal text-[16px] leading-[24px] text-dimWhite">Logistics enterprise</p>
               </div>
             </div>
             <div class="flex justify-between flex-col px-10 py-12 rounded-[20px] max-w-[370px] md:mr-10 sm:mr-5 mr-0 my-5 feedback-card">
-              <img src="assets/quotes.svg" alt="double-quotes" class="w-[42px] h-[27px] object-contain" />
+              <img src="/assets/quotes.svg" alt="" class="w-[42px] h-[27px] object-contain" />
               <p class="font-poppins font-normal text-[18px] leading-[32px] text-white my-10">Outstanding machine learning and data expertise — their models gave us insights we never thought were possible.</p>
-              <div class="flex flex-row">
-                <img src="assets/people03.webp" alt="Emily Rodriguez" width="48" height="48" loading="lazy" decoding="async" class="w-[48px] h-[48px] rounded-full" />
-                <div class="flex flex-col ml-4">
-                  <h4 class="font-poppins font-semibold text-[20px] leading-[32px] text-white">Emily Rodriguez</h4>
-                  <p class="font-poppins font-normal text-[16px] leading-[24px] text-white">Data Analytics Lead</p>
-                </div>
+              <div class="flex flex-col">
+                <h4 class="font-poppins font-semibold text-[18px] leading-[28px] text-white">Head of Data</h4>
+                <p class="font-poppins font-normal text-[16px] leading-[24px] text-dimWhite">Fintech startup</p>
               </div>
-            </div>
-          </div>
-        </section>
-
-        <!-- Clients -->
-        <section class="flex justify-center items-center my-4">
-          <div class="flex justify-center items-center flex-wrap w-full">
-            <div class="flex-1 flex justify-center items-center sm:min-w-[192px] min-w-[120px]">
-              <img src="assets/airbnb.webp" alt="client" loading="lazy" decoding="async" class="sm:w-[192px] w-[100px] object-contain" />
-            </div>
-            <div class="flex-1 flex justify-center items-center sm:min-w-[192px] min-w-[120px]">
-              <img src="assets/binance.webp" alt="client" loading="lazy" decoding="async" class="sm:w-[192px] w-[100px] object-contain" />
-            </div>
-            <div class="flex-1 flex justify-center items-center sm:min-w-[192px] min-w-[120px]">
-              <img src="assets/coinbase.webp" alt="client" loading="lazy" decoding="async" class="sm:w-[192px] w-[100px] object-contain" />
-            </div>
-            <div class="flex-1 flex justify-center items-center sm:min-w-[192px] min-w-[120px]">
-              <img src="assets/dropbox.webp" alt="client" loading="lazy" decoding="async" class="sm:w-[192px] w-[100px] object-contain" />
             </div>
           </div>
         </section>
@@ -312,7 +274,7 @@
             </p>
           </div>
           <div class="flex justify-center items-center sm:ml-10 ml-0">
-            <button type="button" class="py-4 px-6 bg-blue-gradient font-poppins font-medium text-[18px] text-primary outline-none rounded-[10px]">Get Started</button>
+            <button type="button" onclick="location.href='/contact'" class="py-4 px-6 bg-blue-gradient font-poppins font-medium text-[18px] text-primary outline-none rounded-[10px]">Get Started</button>
           </div>
         </section>
 
@@ -320,49 +282,45 @@
         <section class="flex justify-center items-center sm:py-16 py-6 flex-col">
           <div class="flex justify-center items-start md:flex-row flex-col mb-8 w-full">
             <div class="flex-[1] flex flex-col justify-start mr-10">
-              <img src="assets/logo.webp" alt="Graspins" class="w-[266px] h-[72.14px] object-contain" />
+              <img src="/assets/logo.webp" alt="Graspins Innovations" class="w-[266px] h-[72.14px] object-contain" />
               <p class="font-poppins font-normal text-dimWhite text-[18px] leading-[30.8px] mt-4 max-w-[312px]">
                 Specialized AI solutions — architected, developed, deployed, and maintained for companies of every size.
               </p>
+              <a href="mailto:hello@graspins.com" class="font-poppins font-normal text-[16px] leading-[24px] text-secondary hover:underline mt-4">hello@graspins.com</a>
             </div>
             <div class="flex-[1.5] w-full flex flex-row justify-between flex-wrap md:mt-0 mt-10">
               <div class="flex flex-col ss:my-0 my-4 min-w-[150px]">
                 <h4 class="font-poppins font-medium text-[18px] leading-[27px] text-white">Services</h4>
                 <ul class="list-none mt-4">
-                  <li class="font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-secondary cursor-pointer mb-4"><a href="https://www.graspins.com/services/ai-strategy/">AI Strategy & Consulting</a></li>
-                  <li class="font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-secondary cursor-pointer mb-4"><a href="https://www.graspins.com/services/ai-development/">Custom AI Development</a></li>
-                  <li class="font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-secondary cursor-pointer mb-4"><a href="https://www.graspins.com/services/machine-learning/">Machine Learning & MLOps</a></li>
-                  <li class="font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-secondary cursor-pointer mb-4"><a href="https://www.graspins.com/services/generative-ai/">Generative AI</a></li>
-                  <li class="font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-secondary cursor-pointer mb-0"><a href="https://www.graspins.com/services/software-development/">Software Development</a></li>
+                  <li class="font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-secondary cursor-pointer mb-4"><a href="/services#ai-strategy">AI Strategy & Consulting</a></li>
+                  <li class="font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-secondary cursor-pointer mb-4"><a href="/services#ai-development">Custom AI Development</a></li>
+                  <li class="font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-secondary cursor-pointer mb-4"><a href="/services#machine-learning">Machine Learning & MLOps</a></li>
+                  <li class="font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-secondary cursor-pointer mb-4"><a href="/services#generative-ai">Generative AI</a></li>
+                  <li class="font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-secondary cursor-pointer mb-0"><a href="/services#software">Software Development</a></li>
                 </ul>
               </div>
               <div class="flex flex-col ss:my-0 my-4 min-w-[150px]">
                 <h4 class="font-poppins font-medium text-[18px] leading-[27px] text-white">Company</h4>
                 <ul class="list-none mt-4">
-                  <li class="font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-secondary cursor-pointer mb-4"><a href="https://www.Graspins.com/about/">About Us</a></li>
-                  <li class="font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-secondary cursor-pointer mb-4"><a href="https://www.Graspins.com/case-studies/">Case Studies</a></li>
+                  <li class="font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-secondary cursor-pointer mb-4"><a href="/about">About Us</a></li>
+                  <li class="font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-secondary cursor-pointer mb-4"><a href="/case-studies">Case Studies</a></li>
                   <li class="font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-secondary cursor-pointer mb-4"><a href="/careers">Careers</a></li>
-                  <li class="font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-secondary cursor-pointer mb-4"><a href="https://www.Graspins.com/blog/">Blog</a></li>
-                  <li class="font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-secondary cursor-pointer mb-0"><a href="https://www.Graspins.com/contact/">Contact</a></li>
+                  <li class="font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-secondary cursor-pointer mb-4"><a href="/blog">Blog</a></li>
+                  <li class="font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-secondary cursor-pointer mb-0"><a href="/contact">Contact</a></li>
                 </ul>
               </div>
               <div class="flex flex-col ss:my-0 my-4 min-w-[150px]">
                 <h4 class="font-poppins font-medium text-[18px] leading-[27px] text-white">Resources</h4>
                 <ul class="list-none mt-4">
-                  <li class="font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-secondary cursor-pointer mb-4"><a href="https://www.Graspins.com/resources/documentation/">Documentation</a></li>
-                  <li class="font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-secondary cursor-pointer mb-0"><a href="https://www.Graspins.com/support/">Support</a></li>
+                  <li class="font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-secondary cursor-pointer mb-4"><a href="/documentation">Documentation</a></li>
+                  <li class="font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-secondary cursor-pointer mb-0"><a href="/support">Support</a></li>
                 </ul>
               </div>
             </div>
           </div>
           <div class="w-full flex justify-between items-center md:flex-row flex-col pt-6 border-t-[1px] border-t-[#3F3E45]">
-            <p class="font-poppins font-normal text-center text-[18px] leading-[27px] text-white">Copyright Ⓒ 2024 Graspins. All Rights Reserved.</p>
-            <div class="flex flex-row md:mt-0 mt-6">
-              <a href="https://www.instagram.com/" target="_blank" rel="noopener"><img src="assets/instagram.svg" alt="instagram" class="w-[21px] h-[21px] object-contain cursor-pointer mr-6" /></a>
-              <a href="https://www.facebook.com/" target="_blank" rel="noopener"><img src="assets/facebook.svg" alt="facebook" class="w-[21px] h-[21px] object-contain cursor-pointer mr-6" /></a>
-              <a href="https://www.twitter.com/" target="_blank" rel="noopener"><img src="assets/twitter.svg" alt="twitter" class="w-[21px] h-[21px] object-contain cursor-pointer mr-6" /></a>
-              <a href="https://www.linkedin.com/" target="_blank" rel="noopener"><img src="assets/linkedin.svg" alt="linkedin" class="w-[21px] h-[21px] object-contain cursor-pointer mr-0" /></a>
-            </div>
+            <p class="font-poppins font-normal text-center text-[18px] leading-[27px] text-white">Copyright Ⓒ 2026 Graspins Innovations. All Rights Reserved.</p>
+            <a href="/contact" class="font-poppins font-normal text-[16px] leading-[27px] text-dimWhite hover:text-secondary md:mt-0 mt-6">Get in touch →</a>
           </div>
         </section>
       </div>

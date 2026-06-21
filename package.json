@@ -6,7 +6,8 @@
   "scripts": {
     "build:css": "tailwindcss -c tailwind.config.cjs -i tailwind.src.css -o css/styles.css --minify",
     "watch:css": "tailwindcss -c tailwind.config.cjs -i tailwind.src.css -o css/styles.css --watch",
-    "build:img": "node scripts/optimize-images.mjs"
+    "build:img": "node scripts/optimize-images.mjs",
+    "build:pages": "node scripts/build-pages.mjs"
   },
   "devDependencies": {
     "sharp": "^0.33.0",

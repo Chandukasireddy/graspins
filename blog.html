@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script>
+      document.documentElement.classList.add("js");
+    </script>
+    <title>Blog | Graspins Innovations</title>
+    <meta name="description" content="Practical perspectives from the Graspins Innovations team on AI models, agents, and building real products with artificial intelligence." />
+    <meta name="author" content="Graspins Innovations" />
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1" />
+    <meta name="theme-color" content="#00040f" />
+    <link rel="canonical" href="https://graspins.com/blog" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Graspins Innovations" />
+    <meta property="og:title" content="Blog | Graspins Innovations" />
+    <meta property="og:description" content="Practical perspectives from the Graspins Innovations team on AI models, agents, and building real products with artificial intelligence." />
+    <meta property="og:url" content="https://graspins.com/blog" />
+    <meta property="og:image" content="https://graspins.com/assets/og-image.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Blog | Graspins Innovations" />
+    <meta name="twitter:description" content="Practical perspectives from the Graspins Innovations team on AI models, agents, and building real products with artificial intelligence." />
+    <meta name="twitter:image" content="https://graspins.com/assets/og-image.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32.png" />
+    <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" />
+    <link rel="stylesheet" href="/css/styles.css" />
+  </head>
+  <body class="bg-primary w-full overflow-x-hidden">
+    <!-- Navbar -->
+    <div class="sm:px-16 px-6 flex justify-center items-center">
+      <div class="xl:max-w-[1280px] w-full">
+        <nav class="w-full flex py-6 justify-between items-center navbar">
+          <a href="/">
+            <img src="/assets/logo.webp" alt="Graspins Innovations" class="w-[200px] h-[60px] object-contain cursor-pointer" />
+          </a>
+          <ul class="list-none sm:flex hidden justify-end items-center flex-1">
+            <li class="font-poppins font-normal cursor-pointer text-[16px] mr-10 text-white"><a href="/">Home</a></li>
+            <li class="font-poppins font-normal cursor-pointer text-[16px] mr-10 text-white"><a href="/services">Services</a></li>
+            <li class="font-poppins font-normal cursor-pointer text-[16px] mr-10 text-white"><a href="/case-studies">Case Studies</a></li>
+            <li class="font-poppins font-normal cursor-pointer text-[16px] mr-10 text-secondary"><a href="/blog">Blog</a></li>
+            <li class="font-poppins font-normal cursor-pointer text-[16px] mr-10 text-white"><a href="/about">About</a></li>
+            <li class="font-poppins font-normal cursor-pointer text-[16px] mr-0 text-white"><a href="/contact">Contact</a></li>
+          </ul>
+          <div class="sm:hidden flex flex-1 justify-end items-center">
+            <button id="menu-toggle" aria-label="Toggle menu" class="bg-transparent border-0 p-0 cursor-pointer">
+              <img id="menu-icon" src="/assets/menu.svg" alt="" class="w-[28px] h-[28px] object-contain" />
+            </button>
+            <div id="mobile-menu" class="hidden p-6 bg-black-gradient absolute top-20 right-0 mx-4 my-2 min-w-[160px] rounded-xl sidebar z-10">
+              <ul class="list-none flex flex-col justify-end items-center flex-1">
+                <li class="font-poppins font-normal cursor-pointer text-[16px] mb-4 text-white"><a href="/">Home</a></li>
+                <li class="font-poppins font-normal cursor-pointer text-[16px] mb-4 text-white"><a href="/services">Services</a></li>
+                <li class="font-poppins font-normal cursor-pointer text-[16px] mb-4 text-white"><a href="/case-studies">Case Studies</a></li>
+                <li class="font-poppins font-normal cursor-pointer text-[16px] mb-4 text-secondary"><a href="/blog">Blog</a></li>
+                <li class="font-poppins font-normal cursor-pointer text-[16px] mb-4 text-white"><a href="/about">About</a></li>
+                <li class="font-poppins font-normal cursor-pointer text-[16px] mr-0 text-white"><a href="/contact">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+
+    <div class="bg-primary sm:px-16 px-6 flex justify-center items-start">
+      <div class="xl:max-w-[1280px] w-full">
+        <section class="sm:py-16 py-8 max-w-[820px]">
+          <p class="font-poppins font-medium text-secondary text-[16px] uppercase tracking-wide mb-3">Blog</p>
+          <h1 class="font-poppins font-semibold text-white xs:text-[52px] text-[40px] xs:leading-[64px] leading-[52px] mb-6">Notes on building with AI.</h1>
+          <p class="font-poppins font-normal text-dimWhite text-[18px] leading-[32px]">Practical perspectives from our team on the AI landscape — new models, agents, and what they mean for teams shipping real products.</p>
+        </section>
+        <section class="sm:pb-16 pb-8 flex flex-col gap-6">
+          <a href="/blog/claude-4-coding-agents" class="block bg-black-gradient-2 p-8 rounded-[20px] feature-card">
+            <p class="font-poppins font-medium text-secondary text-[14px] uppercase tracking-wide mb-2">AI Agents · May 26, 2025</p>
+            <h2 class="font-poppins font-semibold text-white text-[24px] leading-[32px] mb-3">Claude 4 and the Next Generation of Coding Agents</h2>
+            <p class="font-poppins font-normal text-dimWhite text-[17px] leading-[28px]">Anthropic's Claude 4 family pushes sustained, agentic coding — models that can work through multi-step software tasks more reliably than before.</p>
+            <span class="font-poppins font-medium text-secondary text-[16px] inline-block mt-4">Read article →</span>
+          </a>
+          <a href="/blog/gemini-2-5-pro-long-context" class="block bg-black-gradient-2 p-8 rounded-[20px] feature-card">
+            <p class="font-poppins font-medium text-secondary text-[14px] uppercase tracking-wide mb-2">Large Language Models · March 26, 2025</p>
+            <h2 class="font-poppins font-semibold text-white text-[24px] leading-[32px] mb-3">Gemini 2.5 Pro and the Long-Context Advantage</h2>
+            <p class="font-poppins font-normal text-dimWhite text-[17px] leading-[28px]">Gemini 2.5 Pro pairs strong reasoning with very large context windows. We look at where long context genuinely helps — and where retrieval still wins.</p>
+            <span class="font-poppins font-medium text-secondary text-[16px] inline-block mt-4">Read article →</span>
+          </a>
+          <a href="/blog/claude-3-7-extended-thinking" class="block bg-black-gradient-2 p-8 rounded-[20px] feature-card">
+            <p class="font-poppins font-medium text-secondary text-[14px] uppercase tracking-wide mb-2">Reasoning · February 25, 2025</p>
+            <h2 class="font-poppins font-semibold text-white text-[24px] leading-[32px] mb-3">Extended Thinking: Inside Claude 3.7 Sonnet</h2>
+            <p class="font-poppins font-normal text-dimWhite text-[17px] leading-[28px]">Claude 3.7 Sonnet blends fast responses with optional extended thinking, letting one model flex between quick answers and deep reasoning.</p>
+            <span class="font-poppins font-medium text-secondary text-[16px] inline-block mt-4">Read article →</span>
+          </a>
+          <a href="/blog/deepseek-r1-open-reasoning" class="block bg-black-gradient-2 p-8 rounded-[20px] feature-card">
+            <p class="font-poppins font-medium text-secondary text-[14px] uppercase tracking-wide mb-2">Open Models · January 27, 2025</p>
+            <h2 class="font-poppins font-semibold text-white text-[24px] leading-[32px] mb-3">DeepSeek R1 and the Economics of Open Reasoning Models</h2>
+            <p class="font-poppins font-normal text-dimWhite text-[17px] leading-[28px]">DeepSeek R1 brought strong reasoning to open weights at a fraction of the expected cost — with real implications for build-vs-buy decisions.</p>
+            <span class="font-poppins font-medium text-secondary text-[16px] inline-block mt-4">Read article →</span>
+          </a>
+          <a href="/blog/gemini-2-agent-era" class="block bg-black-gradient-2 p-8 rounded-[20px] feature-card">
+            <p class="font-poppins font-medium text-secondary text-[14px] uppercase tracking-wide mb-2">AI Agents · December 12, 2024</p>
+            <h2 class="font-poppins font-semibold text-white text-[24px] leading-[32px] mb-3">Gemini 2.0 and the Beginning of the Agent Era</h2>
+            <p class="font-poppins font-normal text-dimWhite text-[17px] leading-[28px]">Google's Gemini 2.0 Flash leans into native tool use and multimodal output, framing 2025 as the year agentic AI goes mainstream.</p>
+            <span class="font-poppins font-medium text-secondary text-[16px] inline-block mt-4">Read article →</span>
+          </a>
+          <a href="/blog/agentic-ai-computer-use" class="block bg-black-gradient-2 p-8 rounded-[20px] feature-card">
+            <p class="font-poppins font-medium text-secondary text-[14px] uppercase tracking-wide mb-2">AI Agents · October 24, 2024</p>
+            <h2 class="font-poppins font-semibold text-white text-[24px] leading-[32px] mb-3">Agentic AI and Computer Use: A New Interaction Model</h2>
+            <p class="font-poppins font-normal text-dimWhite text-[17px] leading-[28px]">Anthropic's upgraded Claude 3.5 Sonnet introduced computer use — models that operate software like a person. Promising, and a reminder to design guardrails first.</p>
+            <span class="font-poppins font-medium text-secondary text-[16px] inline-block mt-4">Read article →</span>
+          </a>
+          <a href="/blog/openai-o1-reasoning-models" class="block bg-black-gradient-2 p-8 rounded-[20px] feature-card">
+            <p class="font-poppins font-medium text-secondary text-[14px] uppercase tracking-wide mb-2">Reasoning · September 16, 2024</p>
+            <h2 class="font-poppins font-semibold text-white text-[24px] leading-[32px] mb-3">Reasoning Models Arrive: What OpenAI o1 Means for AI Systems</h2>
+            <p class="font-poppins font-normal text-dimWhite text-[17px] leading-[28px]">OpenAI's o1 spends more compute "thinking" before answering. That trade-off reshapes how we design AI for hard, multi-step problems.</p>
+            <span class="font-poppins font-medium text-secondary text-[16px] inline-block mt-4">Read article →</span>
+          </a>
+          <a href="/blog/claude-3-5-sonnet-ai-copilots" class="block bg-black-gradient-2 p-8 rounded-[20px] feature-card">
+            <p class="font-poppins font-medium text-secondary text-[14px] uppercase tracking-wide mb-2">Developer Tools · June 24, 2024</p>
+            <h2 class="font-poppins font-semibold text-white text-[24px] leading-[32px] mb-3">Claude 3.5 Sonnet and the Rise of AI Coding Copilots</h2>
+            <p class="font-poppins font-normal text-dimWhite text-[17px] leading-[28px]">Claude 3.5 Sonnet's coding gains — and its new Artifacts interface — point to a future where AI is a genuine collaborator in software work.</p>
+            <span class="font-poppins font-medium text-secondary text-[16px] inline-block mt-4">Read article →</span>
+          </a>
+          <a href="/blog/gpt-4o-multimodal-ai" class="block bg-black-gradient-2 p-8 rounded-[20px] feature-card">
+            <p class="font-poppins font-medium text-secondary text-[14px] uppercase tracking-wide mb-2">Multimodal AI · May 16, 2024</p>
+            <h2 class="font-poppins font-semibold text-white text-[24px] leading-[32px] mb-3">GPT-4o and the Shift to Real-Time Multimodal AI</h2>
+            <p class="font-poppins font-normal text-dimWhite text-[17px] leading-[28px]">OpenAI's GPT-4o brings faster, natively multimodal interaction across text, vision, and audio. We look at what changes for product design.</p>
+            <span class="font-poppins font-medium text-secondary text-[16px] inline-block mt-4">Read article →</span>
+          </a>
+          <a href="/blog/claude-3-enterprise-ai" class="block bg-black-gradient-2 p-8 rounded-[20px] feature-card">
+            <p class="font-poppins font-medium text-secondary text-[14px] uppercase tracking-wide mb-2">Large Language Models · March 5, 2024</p>
+            <h2 class="font-poppins font-semibold text-white text-[24px] leading-[32px] mb-3">Claude 3 Raises the Bar for Enterprise AI</h2>
+            <p class="font-poppins font-normal text-dimWhite text-[17px] leading-[28px]">Anthropic's Claude 3 family — Opus, Sonnet, and Haiku — pushes frontier quality while giving teams a clear cost/latency ladder. Here's what it means for production AI.</p>
+            <span class="font-poppins font-medium text-secondary text-[16px] inline-block mt-4">Read article →</span>
+          </a>
+        </section>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="bg-primary sm:px-16 px-6 flex justify-center items-start">
+      <div class="xl:max-w-[1280px] w-full">
+        <section class="flex justify-center items-center sm:py-16 py-6 flex-col">
+          <div class="flex justify-center items-start md:flex-row flex-col mb-8 w-full">
+            <div class="flex-[1] flex flex-col justify-start mr-10">
+              <img src="/assets/logo.webp" alt="Graspins Innovations" class="w-[266px] h-[72.14px] object-contain" />
+              <p class="font-poppins font-normal text-dimWhite text-[18px] leading-[30.8px] mt-4 max-w-[312px]">
+                Specialized AI solutions — architected, developed, deployed, and maintained for companies of every size.
+              </p>
+              <a href="mailto:hello@graspins.com" class="font-poppins font-normal text-[16px] leading-[24px] text-secondary hover:underline mt-4">hello@graspins.com</a>
+            </div>
+            <div class="flex-[1.5] w-full flex flex-row justify-between flex-wrap md:mt-0 mt-10">
+              <div class="flex flex-col ss:my-0 my-4 min-w-[150px]">
+                <h4 class="font-poppins font-medium text-[18px] leading-[27px] text-white">Services</h4>
+                <ul class="list-none mt-4">
+                  <li class="font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-secondary cursor-pointer mb-4"><a href="/services#ai-strategy">AI Strategy &amp; Consulting</a></li>
+                  <li class="font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-secondary cursor-pointer mb-4"><a href="/services#ai-development">Custom AI Development</a></li>
+                  <li class="font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-secondary cursor-pointer mb-4"><a href="/services#machine-learning">Machine Learning &amp; MLOps</a></li>
+                  <li class="font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-secondary cursor-pointer mb-4"><a href="/services#generative-ai">Generative AI</a></li>
+                  <li class="font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-secondary cursor-pointer mb-0"><a href="/services#software">Software Development</a></li>
+                </ul>
+              </div>
+              <div class="flex flex-col ss:my-0 my-4 min-w-[150px]">
+                <h4 class="font-poppins font-medium text-[18px] leading-[27px] text-white">Company</h4>
+                <ul class="list-none mt-4">
+                  <li class="font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-secondary cursor-pointer mb-4"><a href="/about">About Us</a></li>
+                  <li class="font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-secondary cursor-pointer mb-4"><a href="/case-studies">Case Studies</a></li>
+                  <li class="font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-secondary cursor-pointer mb-4"><a href="/careers">Careers</a></li>
+                  <li class="font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-secondary cursor-pointer mb-4"><a href="/blog">Blog</a></li>
+                  <li class="font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-secondary cursor-pointer mb-0"><a href="/contact">Contact</a></li>
+                </ul>
+              </div>
+              <div class="flex flex-col ss:my-0 my-4 min-w-[150px]">
+                <h4 class="font-poppins font-medium text-[18px] leading-[27px] text-white">Resources</h4>
+                <ul class="list-none mt-4">
+                  <li class="font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-secondary cursor-pointer mb-4"><a href="/documentation">Documentation</a></li>
+                  <li class="font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-secondary cursor-pointer mb-0"><a href="/support">Support</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="w-full flex justify-between items-center md:flex-row flex-col pt-6 border-t-[1px] border-t-[#3F3E45]">
+            <p class="font-poppins font-normal text-center text-[18px] leading-[27px] text-white">Copyright Ⓒ 2026 Graspins Innovations. All Rights Reserved.</p>
+            <a href="/contact" class="font-poppins font-normal text-[16px] leading-[27px] text-dimWhite hover:text-secondary md:mt-0 mt-6">Get in touch →</a>
+          </div>
+        </section>
+      </div>
+    </div>
+
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Blog",
+  "name": "Graspins Innovations Blog",
+  "url": "https://graspins.com/blog",
+  "description": "Practical perspectives on building with AI.",
+  "blogPost": [
+    {
+      "@type": "BlogPosting",
+      "headline": "Claude 4 and the Next Generation of Coding Agents",
+      "datePublished": "2025-05-26",
+      "url": "https://graspins.com/blog/claude-4-coding-agents"
+    },
+    {
+      "@type": "BlogPosting",
+      "headline": "Gemini 2.5 Pro and the Long-Context Advantage",
+      "datePublished": "2025-03-26",
+      "url": "https://graspins.com/blog/gemini-2-5-pro-long-context"
+    },
+    {
+      "@type": "BlogPosting",
+      "headline": "Extended Thinking: Inside Claude 3.7 Sonnet",
+      "datePublished": "2025-02-25",
+      "url": "https://graspins.com/blog/claude-3-7-extended-thinking"
+    },
+    {
+      "@type": "BlogPosting",
+      "headline": "DeepSeek R1 and the Economics of Open Reasoning Models",
+      "datePublished": "2025-01-27",
+      "url": "https://graspins.com/blog/deepseek-r1-open-reasoning"
+    },
+    {
+      "@type": "BlogPosting",
+      "headline": "Gemini 2.0 and the Beginning of the Agent Era",
+      "datePublished": "2024-12-12",
+      "url": "https://graspins.com/blog/gemini-2-agent-era"
+    },
+    {
+      "@type": "BlogPosting",
+      "headline": "Agentic AI and Computer Use: A New Interaction Model",
+      "datePublished": "2024-10-24",
+      "url": "https://graspins.com/blog/agentic-ai-computer-use"
+    },
+    {
+      "@type": "BlogPosting",
+      "headline": "Reasoning Models Arrive: What OpenAI o1 Means for AI Systems",
+      "datePublished": "2024-09-16",
+      "url": "https://graspins.com/blog/openai-o1-reasoning-models"
+    },
+    {
+      "@type": "BlogPosting",
+      "headline": "Claude 3.5 Sonnet and the Rise of AI Coding Copilots",
+      "datePublished": "2024-06-24",
+      "url": "https://graspins.com/blog/claude-3-5-sonnet-ai-copilots"
+    },
+    {
+      "@type": "BlogPosting",
+      "headline": "GPT-4o and the Shift to Real-Time Multimodal AI",
+      "datePublished": "2024-05-16",
+      "url": "https://graspins.com/blog/gpt-4o-multimodal-ai"
+    },
+    {
+      "@type": "BlogPosting",
+      "headline": "Claude 3 Raises the Bar for Enterprise AI",
+      "datePublished": "2024-03-05",
+      "url": "https://graspins.com/blog/claude-3-enterprise-ai"
+    }
+  ]
+}
+    </script>
+    <script src="/js/main.js"></script>
+  </body>
+</html>
